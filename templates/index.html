@@ -10,7 +10,7 @@
     <h1>Get the most dominant colors in an image</h1>
     <form action="{{ url_for('home') }}" id="send_image" method="post" enctype="multipart/form-data">
         <label for="no_colors">How many colors do you want?</label>
-        <input type="text" name="no_colors" id="no_colors"><br>
+        <input type="text" name="no_colors" id="no_colors" value="10"><br>
         <label for="img">Select image: </label>
         <input type="file" name="img" id="img" accept="image/*"><br>
         <input type="submit" value="Submit">
