@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="file"] {
+    width: 100%;
+    padding: 7px;
+    padding-right: 0px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+img {
+    max-width: 25%;
+    border-radius: 20px;
+    display: block;
+    margin: 20px auto;
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.color {
+    width: 80px; /* Set your desired width */
+    height: 80px; /* Set your desired height */
+    display: inline-block;
+    margin-right: 10px; /* Add margin to create spacing between color squares */
+    margin-top: 20px;
+    border-radius: 15px;
+    text-align: center; /* Center the text horizontally */
+    vertical-align: middle; /* Center the text vertically (this aligns the text within the square) */
+    background-color: #333; /* Set a background color for the color div */
+    color: #fff; /* Set text color to white */
+    font-size: 16px; /* Adjust the font size */
+    line-height: 50px; /* Center the text vertically by matching the height of the div */
+    transition: transform 0.3s;
+}
+
+.color:hover {
+    transform: scale(1.15);
+}
